@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Cristy's Shop</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/shophome.css') }}" type="text/css">
+
+  <head>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon-shop.ico') }}">
+    
+
+  </head>
+<body>
+  
+   <img src="https://ominous-memory-449qw944w6wc5j56-5000.app.github.dev/static/clogorem.png" width="150px">
+  
+  <!-- <img src="https://d294df8b-f88b-42eb-912c-60fea18e914a-00-1o8y0m0uzsuvk.worf.replit.dev/static/shop2.png" alt="Cristina Hero Image" style="width:100%">
+ -->
+  <div class="topnav">
+   
+    <a id ="home" class="active" href="{{ url_for('home') }} ">Home</a>
+    <a id="myaccount" href="{{ url_for('myaccount')}}"> Login </a>
+    <a id="cart" href="#cart">Cart</a>
+    <input type="text" placeholder="Search..">
+  </div>
+  
+  <h1>Welcome to my practice e-commerce site</h1>
+  <!-- <p id="shop-text"> Note to user: </p>
+  <p>This website is a simulated environment intended for educational practice only and does not represent actual functionality or live data.</p>-->
+
+  <div>
+    <div class="row">
+      <div class="col-2">
+        <hi>
+          Welcome to <br> Cristy's Shop! 
+        </hi>
+          <p>
+            If you're looking to get personalized gifts, you've come to the right place.<br> Shoot me an email if you have any personalized requests.                    have and questions regarding any requests. 
+          </p>
+       
+      </div>
+      <div class="col-2">
+        <img src="https://ominous-memory-449qw944w6wc5j56-5000.app.github.dev/static/clogorem.png">
+    </div>
+    
+  </div>
+
+</body>
+</html>
